@@ -1,10 +1,5 @@
-//
-//  ContentView.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//SelectView allows the user to peruse the list of desserts returned by the API,
+//make a selection, and then proceed to the details provided in DetailView
 import SwiftUI
 
 struct SelectView: View {

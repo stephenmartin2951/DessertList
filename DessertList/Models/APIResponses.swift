@@ -1,10 +1,4 @@
-//
-//  APIResponses.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//Structs created to match the data returned via API calls
 import Foundation
 
 struct DessertSummary: Decodable{

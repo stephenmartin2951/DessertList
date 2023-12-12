@@ -1,10 +1,6 @@
-//
-//  DetailView.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//The DetailView utilizes the results of the second API call that provides more detail tied
+//to a meal's id. The actual API call is abstracted away and is called here via
+//the DetailViewModel
 import SwiftUI
 
 struct DetailView: View {

@@ -1,10 +1,6 @@
-//
-//  dessertAPI.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//The two API models used in the project. The first one, fetchDessertsFromAPI
+//pulls the list of desserts, and the second one, fetchDessertDetails, pulls the
+//details tied to a specific mealID
 import Foundation
 
 func fetchDessertsFromAPI() async throws -> [Dessert] {

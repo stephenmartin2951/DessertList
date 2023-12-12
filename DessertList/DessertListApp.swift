@@ -1,10 +1,4 @@
-//
-//  DessertListApp.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//Application entry
 import SwiftUI
 
 @main

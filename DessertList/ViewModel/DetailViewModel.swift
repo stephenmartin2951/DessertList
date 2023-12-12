@@ -1,10 +1,6 @@
-//
-//  DetailViewModel.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//The DetailViewModel handles the API call results and conforms them to a more manageable DessertModel.
+//The main benefit I found with the DessertModel is it concatenantes each measurement and ingredient into
+//a single array element making it easy to display something that is readable for the user
 import Foundation
 
 class DetailViewModel: ObservableObject {

@@ -1,10 +1,6 @@
-//
-//  WelcomeView.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/11/23.
-//
-
+//A simple intro view that allows me to make the api call pulling the dessert list before
+//displaying the dropdown menu (Picker). This avoids the dropdown being empty when the
+//SelectView first loads
 import SwiftUI
 
 struct WelcomeView: View {

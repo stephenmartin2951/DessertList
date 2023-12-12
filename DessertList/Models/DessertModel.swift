@@ -1,10 +1,6 @@
-//
-//  DessertModel.swift
-//  DessertList
-//
-//  Created by Stephen Martin on 12/10/23.
-//
-
+//DessertModel provides a more manageable object representing the data returned by the APIs.
+//The biggest benefit is the concatenation of each measurement with its corresponding ingredient
+//and put into a single array, as opposed to 40 individual variables.
 import Foundation
 
 class DessertModel{

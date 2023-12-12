@@ -14,8 +14,6 @@
 		063970F02B26773F0096BA7A /* dessertAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063970EF2B26773F0096BA7A /* dessertAPI.swift */; };
 		063970F72B26779C0096BA7A /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063970F62B26779C0096BA7A /* APIResponses.swift */; };
 		063970FF2B2696840096BA7A /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063970FE2B2696840096BA7A /* DessertModel.swift */; };
-		063971022B2697A70096BA7A /* DessertProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063971012B2697A70096BA7A /* DessertProcessor.swift */; };
-		063971072B26ADE00096BA7A /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063971062B26ADE00096BA7A /* DessertViewModel.swift */; };
 		063971092B26B34B0096BA7A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063971082B26B34B0096BA7A /* DetailView.swift */; };
 		0639710B2B26C7280096BA7A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639710A2B26C7280096BA7A /* DetailViewModel.swift */; };
 		06BD86A32B277F8F0098A973 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD86A22B277F8F0098A973 /* WelcomeView.swift */; };
@@ -31,8 +29,6 @@
 		063970EF2B26773F0096BA7A /* dessertAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessertAPI.swift; sourceTree = "<group>"; };
 		063970F62B26779C0096BA7A /* APIResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
 		063970FE2B2696840096BA7A /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
-		063971012B2697A70096BA7A /* DessertProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertProcessor.swift; sourceTree = "<group>"; };
-		063971062B26ADE00096BA7A /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
 		063971082B26B34B0096BA7A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0639710A2B26C7280096BA7A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		06BD86A22B277F8F0098A973 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -69,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				063971052B26ADA40096BA7A /* ViewModel */,
-				063971002B2697900096BA7A /* Process */,
 				063970FB2B267F180096BA7A /* Views */,
 				063970F32B26777E0096BA7A /* Models */,
 				063970EE2B2677210096BA7A /* APICalls */,
@@ -116,18 +111,9 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		063971002B2697900096BA7A /* Process */ = {
-			isa = PBXGroup;
-			children = (
-				063971012B2697A70096BA7A /* DessertProcessor.swift */,
-			);
-			path = Process;
-			sourceTree = "<group>";
-		};
 		063971052B26ADA40096BA7A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				063971062B26ADE00096BA7A /* DessertViewModel.swift */,
 				0639710A2B26C7280096BA7A /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
@@ -209,10 +195,8 @@
 				063970FF2B2696840096BA7A /* DessertModel.swift in Sources */,
 				0639710B2B26C7280096BA7A /* DetailViewModel.swift in Sources */,
 				06BD86A32B277F8F0098A973 /* WelcomeView.swift in Sources */,
-				063971022B2697A70096BA7A /* DessertProcessor.swift in Sources */,
 				063970DE2B26768B0096BA7A /* SelectView.swift in Sources */,
 				063970DC2B26768B0096BA7A /* DessertListApp.swift in Sources */,
-				063971072B26ADE00096BA7A /* DessertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
